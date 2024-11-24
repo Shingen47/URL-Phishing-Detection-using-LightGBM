@@ -1,0 +1,56 @@
+/* Basic styling for the popup */
+body {
+    font-family: Arial, sans-serif;
+    width: 250px;  /* Set a fixed width for the popup */
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;  /* Light background */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;  /* Dark color for the title */
+}
+
+#statusMessage {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;  /* Smooth transition for status change */
+}
+
+/* Specific styles for phishing status */
+#statusMessage.safe {
+    background-color: #d4edda;  /* Light green background for safe */
+    color: #155724;  /* Dark green text */
+}
+
+#statusMessage.phishing {
+    background-color: #f8d7da;  /* Light red background for phishing */
+    color: #721c24;  /* Dark red text */
+}
+
+#statusMessage.unknown {
+    background-color: #f1f1f1;  /* Light grey background for unknown */
+    color: #6c757d;  /* Grey text */
+}
+
+/* Add some padding and margins to the page */
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
