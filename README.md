@@ -19,7 +19,7 @@ This project is a **phishing website detection system** that utilizes **LightGBM
 
 **1. Clone the repository**  
 ```bash
-git clone https://github.com/yourusername/phishing-detection.git
+git clone https://github.com/Shingen47/PhishingDetection.git
 cd phishing-detection
 ```
 
