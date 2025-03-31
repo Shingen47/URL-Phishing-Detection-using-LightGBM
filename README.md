@@ -56,6 +56,4 @@ python app.py
 - Implement deep learning models for enhanced accuracy.  
 - Add support for more browsers like Firefox and Edge.  
 
----
 
-Let me know if you want any modifications or additional details! 🚀
